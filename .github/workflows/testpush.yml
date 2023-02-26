@@ -1,0 +1,9 @@
+name: test-all-push
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: push check
+        run: echo check push
